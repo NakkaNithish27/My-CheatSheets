@@ -1,0 +1,29 @@
+/* ******************************Tag Selectors******************************* */
+h1{
+  font-size:20px;
+  color:red;
+}
+img{
+  background-color:green;
+  padding:20px;
+}
+/* *******************************Class Selectors***************************** */
+.broccoli{
+  background-color:red;
+}
+.bacon{
+  width:120px;
+}
+.circular{
+  border-radius: 50%;  /* An element can have more than one class */
+}
+.broccoli:hover ,.bacon:hover{   /* pseudoclasses */
+  background-color: gold;
+}
+/* *******************************Id Selectors******************************** */
+#heading{
+color:blue;  /*id must be unique throughout*/
+}    /* dont use id for Selectors */
+
+/* specificity/priority */
+/* id Selectors > class Selectors >tag Selectors */
